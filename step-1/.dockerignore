@@ -1,0 +1,6 @@
+nwserver/saves*
+nwserver/utils
+nwserver/servervault
+nwserver/modules
+*.exe
+*.dll
