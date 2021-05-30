@@ -15,8 +15,17 @@ Test the image
 
     docker run -it -p5121:5121/tcp -p5121:5121/udp --rm \
     -v $(pwd)/nwserver/servervault:/opt/nwserver/servervault \
+    -v $(pwd)/nwserver/modules:/opt/nwserver/database \
     -v $(pwd)/nwserver/modules:/opt/nwserver/modules \
     -v $(pwd)/nwserver/saves:/opt/nwserver/saves \
     nwserver-step-1 bash -c "./nwserver -interactive"
 
+You should see:
+
+    Neverwinter Nights Server
+    Build:8109
+    Copyright BioWare Corp 1998-2004
+
+    Server: Loading...
+    Server: Running...
 

@@ -2,5 +2,6 @@ nwserver/saves
 nwserver/utils
 nwserver/servervault
 nwserver/modules
+nwserver/database
 *.exe
 *.dll
